@@ -105,18 +105,21 @@ export const projects: Project[] = [
     name: 'Plateforme CENTIF',
     description: 'Plateforme de gestion des diffusions ONU et des partenaires pour la CENTIF. Système complet de gestion et suivi des diffusions.',
     technologies: ['Next.js', 'Node.js', 'TypeScript', 'MongoDB'],
+    image: '/images/centif.png',
   },
   {
     id: '2',
     name: 'Gestion des Appels d\'offres',
     description: 'Plateforme de gestion des dossiers d\'appels d\'offres pour 2SND. Permet la gestion complète du processus d\'appels d\'offres.',
     technologies: ['Next.js', 'TypeScript', 'MongoDB'],
+    image: '/images/DAO.png',
   },
   {
     id: '3',
     name: 'Gestion Immobilière',
     description: 'Plateforme de gestion immobilière pour QUI SUIS-JE IMMOBILIER. Système de gestion des biens, clients et transactions.',
     technologies: ['Next.js', 'Node.js', 'TypeScript', 'MongoDB'],
+    image: '/images/immobilier.png',
   },
   {
     id: '4',
