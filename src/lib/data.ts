@@ -106,7 +106,7 @@ export const projects: Project[] = [
     description: 'Plateforme de gestion des diffusions ONU et des partenaires pour la CENTIF. Système complet de gestion et suivi des diffusions.\n\nJ’ai participé à la conception et assuré le développement du frontend et du backend.',
     technologies: ['Next.js', 'Node.js', 'TypeScript', 'MongoDB'],
     image: '/images/centif.png',
-    live: 'https://sfc-benin.pprod.2snd.bj/login',
+    live: 'https://sfc-benin.centif.bj/',
   },
   {
     id: '2',
