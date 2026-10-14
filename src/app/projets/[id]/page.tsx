@@ -34,29 +34,16 @@ export default async function ProjectDetailPage({
           {project.name}
         </h1>
 
-        {project.live && (
-          <div className="mb-8">
-            <a
-              href={project.live}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 transition hover:border-blue-300 hover:bg-blue-100"
-            >
-              <span aria-hidden="true">🔗</span>
-              {project.live}
-            </a>
-          </div>
-        )}
-
         <div className="grid items-stretch gap-8 lg:grid-cols-[1.2fr_0.8fr]">
-          <div className="overflow-hidden rounded-[28px] bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-500 p-4 shadow-[0_20px_60px_rgba(37,99,235,0.18)] sm:p-6">
-            <div className="relative h-full min-h-[420px] overflow-hidden rounded-[20px] bg-white/10 sm:min-h-[520px]">
+          <div className="overflow-hidden rounded-[28px] bg-white p-4 shadow-[0_20px_60px_rgba(15,23,42,0.08)] sm:p-6">
+            <div className="relative aspect-[16/10] min-h-[420px] overflow-hidden rounded-[20px] bg-[#f5f5f5] sm:min-h-[520px]">
               <Image
                 src={project.image || '/images/form.png'}
                 alt={project.name}
                 fill
                 priority
-                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 60vw"
+                className="absolute inset-0 h-full w-full object-contain object-center bg-white/5"
               />
             </div>
           </div>
